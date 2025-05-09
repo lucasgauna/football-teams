@@ -1,27 +1,27 @@
 [
-  {
-    "name": "Club Atlético River Plate",
-    "motto": "El más grande",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/7/7b/Club_Atl%C3%A9tico_River_Plate_logo.svg"
-  },
-  {
-    "name": "Club Atlético Boca Juniors",
-    "motto": "La mitad más uno",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Boca_Juniors_logo18.svg"
-  },
-  {
-    "name": "Club Atlético Independiente",
-    "motto": "Rey de Copas",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
-  },
-  {
-    "name": "Racing Club",
-    "motto": "El Primer Grande",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Escudo_de_Racing_Club_%28Argentina%29.svg"
-  },
-  {
-    "name": "San Lorenzo de Almagro",
-    "motto": "El Ciclón",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Escudo_de_San_Lorenzo_de_Almagro.svg"
-  }
+    {
+        "name": "Club Atlético River Plate",
+        "motto": "El más grande",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/7/7b/Club_Atl%C3%A9tico_River_Plate_logo.svg"
+    },
+    {
+        "name": "Club Atlético Boca Juniors",
+        "motto": "La mitad más uno",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Boca_Juniors_logo18.svg"
+    },
+    {
+        "name": "Club Atlético Independiente",
+        "motto": "Rey de Copas",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
+    },
+    {
+        "name": "Racing Club",
+        "motto": "El Primer Grande",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Escudo_de_Racing_Club_%28Argentina%29.svg"
+    },
+    {
+        "name": "San Lorenzo de Almagro",
+        "motto": "El Ciclón",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Escudo_de_San_Lorenzo_de_Almagro.svg"
+    }
 ]
