@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 
 import { Team } from 'src/app/shared/services/team/team.interface';
 import { TeamService } from 'src/app/shared/services/team/team.service';
@@ -10,11 +10,10 @@ import { TeamService } from 'src/app/shared/services/team/team.service';
     styleUrl: './team-list.component.scss'
 })
 export class TeamListComponent {
+    teams = signal<Team[]>([]);
     private teamService = inject(TeamService);
 
     ngOnInit() {
-        this.teamService.getTeams().subscribe((teams: Team[]) => {
-            console.log(teams);
-        });
+        this.teamService.getTeams().subscribe((teams: Team[]) => this.teams.set(teams));
     }
 }
