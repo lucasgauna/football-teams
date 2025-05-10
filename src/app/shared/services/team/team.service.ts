@@ -16,6 +16,7 @@ export class TeamService {
             catchError((error) => {
                 console.error('Error while fetching teams:', error);
                 // For now, I will just return an empty array.
+                // We could implement a proper error handling system.
                 return of([]);
             })
         );

@@ -1,0 +1,33 @@
+@use 'breakpoints' as *;
+
+:host {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--section-bg-color);
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    background-color: var(--section-bg-color);
+}
+
+@include desktop {
+    header {
+        text-align: left;
+    }
+}

@@ -3,3 +3,11 @@
 body {
     font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
+
+:root {
+    --primary-color: #303ab2;
+    --secondary-color: #00adff;
+    --tertiary-color: #f7f7f7;
+
+    --section-bg-color: var(--tertiary-color);
+}

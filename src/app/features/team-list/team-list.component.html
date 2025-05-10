@@ -1,1 +1,25 @@
-<p>team-list works!</p>
+<div class="team-list">
+    <h2 class="title">Argentine football teams</h2>
+    <div class="teams-container">
+        @for (team of teams(); track $index) {
+            <mat-card class="card">
+                <img
+                    class="image"
+                    [src]="team.logo"
+                    alt="{{ team.name }} logo"
+                    (click)="openModal(team)"
+                />
+                <mat-card-header>
+                    <mat-card-title>{{ team.name }}</mat-card-title>
+                    <mat-card-subtitle>{{ team.motto }}</mat-card-subtitle>
+                </mat-card-header>
+            </mat-card>
+        }
+    </div>
+    <app-modal #modal>
+        <img
+            [src]="teamSelected()?.logo"
+            alt="{{ teamSelected()?.name }} logo"
+        />
+    </app-modal>
+</div>
