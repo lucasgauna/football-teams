@@ -52,15 +52,15 @@ src
     └── assets
 ```
 
-# Routing
+## Routing
 
 Lazy loading was used for the main route. If the app becomes bigger this apporach will help scale the app and improve performance by only loading the parts of the app that were needed at the time.
 
-# Error Handling
+## Error Handling
 
 For the purpose of this exercise the errors are console logged and treated in a way that keeps the UI running, in the feature a more sophisticated error system could be added.
 
-# Accessibility
+## Accessibility
 
 The application was created using as many semantic tags as possible.
 
