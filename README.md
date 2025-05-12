@@ -18,7 +18,7 @@ The UI is designed to be simple and responsive, ensuring usability across mobile
 
 ### Goals
 
-The goals is to deliver a simple UI that enables users to:
+The goal is to deliver a simple UI that enables users to:
 
 - View a list of all football teams returned by the backend.
 - Click on a team logo to view a larger version (bonus).
